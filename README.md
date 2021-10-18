@@ -4,6 +4,17 @@
 
 [Chart.js](https://www.chartjs.org/) is an amazing JS library that helps with visualization of data through different types of charts and graphs. In this tutorial, we're going to be generating images of the charts/graphs from the [Chart.js JS library](https://github.com/chartjs/Chart.js) and combining them into one image using [Next.js](https://nextjs.org/) and [Cloudinary](https://cloudinary.com/?ap=em).
 
+##  Codesandbox 
+
+The final project can be viewed on [Codesandbox](https://codesandbox.io/s/data-visualization-uz02t).
+
+<CodeSandbox
+title="Data visualization"
+id="data-visualization-uz02t"
+/>
+
+You can find the full source code on my [Github]https://github.com/musebe/Data-visualization-with-chartjs.git) repository.
+
 ## Getting Started
 
 I should mention that working knowledge of Javascript is required. Knowledge of React, Node.js, and Next.js is recommended but not required. I, however, recommend going through the [Next.js docs](https://nextjs.org/docs/) to get a grip on some of it's features that we'll be using e.g. API Routes
@@ -37,7 +48,7 @@ Formidable helps us to parse form data easily, cloudinary enables us to communic
 To communicate with cloudinary APIs, we'll need some credentials and API key. Let's get those. If you're not familiar, [cloudinary](https://cloudinary.com/?ap=em) provides APIs to developers that allow for upload and storage of images and videos. On top of that, you can also transform and optimize media. You can get started with a free developer account immediately and upgrade to a paid plan when your needs grow. Head over to [cloudinary](https://cloudinary.com/?ap=em) and create an account if you do not have one. Proceed to log in and navigate to your [dashboard](https://cloudinary.com/console?ap=em). Here you'll find the `Cloud name`, `API Key` and `API Secret`.
 
 
-![Cloudinary Dashboard](https://github.com/newtonmunene99/data-visualization-with-chartjs/blob/master/public/images/cloudinary-dashboard.png "Cloudinary Dashboard")
+![Cloudinary Dashboard](https://res.cloudinary.com/hackit-africa/image/upload/v1623006780/cloudinary-dashboard.png "Cloudinary Dashboard")
 
 In your code editor with your project open, create a new file named `.env.local` at the root of your project and paste the following code inside.
 
@@ -984,4 +995,4 @@ You can now run your project using
 npm run dev
 ```
 
-That's it. You can find the full code on my [Github](https://github.com/newtonmunene99/data-visualization-with-chartjs)
+That's it. You can find the full code on my [Github](https://github.com/musebe/Data-visualization-with-chartjs.git)
