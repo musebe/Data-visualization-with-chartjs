@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 20px 30px;
+  border: none;
+  font-weight: bold;
+  background-color: #0044ff;
+  color: #ffffff;
+}
+
+button:disabled {
+  background-color: #cfcfcf;
+}
+
+button:hover:not([disabled]) {
+  background-color: #0036ca;
+}
